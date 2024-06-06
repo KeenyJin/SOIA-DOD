@@ -1,0 +1,37 @@
+noun_classes: 128
+verb_classes: 81
+image_yolo_size: 1024
+
+img_path: /path/to/EGO4D/v2/object_frames/folder/
+anno_path: /path/to/EGO4D/v2/annotations/
+yolo_checkpoint: /path/to/YOLOv9/checkpoint.pth
+
+backbone: 'ViT-L/14@336px'
+enc_embed_dim: 1024
+enc_ff_dim: 2048
+enc_num_heads: 8
+enc_num_layers: 6
+ttc_mlp_num_layers: 3
+
+yolo_max_det: 10
+yolo_iou_thres: 0.7
+yolo_conf_thres: 0.0001
+pos_sample_iou: 0.5
+top_k_verb: 4
+test_max_pred: 60
+
+obj_loss_coef: 2.0
+verb_loss_coef: 2.0
+ttc_loss_coef: 1.0
+aux_loss_coef: 1
+
+epochs: 100
+batch_size_per_gpu_train: 16
+batch_size_per_gpu_val: 16
+optimizer: "AdamW"
+lr: 0.0001
+lr_backbone: 0.00001
+lr_drop: 11
+weight_decay: 0.001
+
+log_interval: 20
