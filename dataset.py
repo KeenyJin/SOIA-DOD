@@ -173,13 +173,6 @@ class Ego4DSTAImage(torch.utils.data.Dataset):
         print(f"Removed {removed_boxes} degenerate objects and {removed_anns} annotations with no objects")
 
     def __getitem__(self, idx):
-        """
-        Output:
-            - target: dict of multiple items
-                - boxes: Tensor[num_box, 4]. \
-                    Init type: x0,y0,x1,y1. unnormalized data.
-                    Final type: cx,cy,w,h. normalized data.
-        """
         annotation = self._annotations['annotations'][idx]
         image = self._load_image(annotation['video_uid'], annotation['frame'])
         target = None
