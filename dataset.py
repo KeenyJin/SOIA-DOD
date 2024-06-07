@@ -198,7 +198,6 @@ def batch_images_transform(images, cfg, clip_size, clip_preprocess, device="cuda
         w, h = img.size
         r = yolo_size / max(w, h)
         imgs_yolo.append(transforms.Resize((int(h * r), int(w * r)))(transforms.ToTensor()(img)))
-    # imgs_yolo = torch.stack(imgs_yolo, dim=0).to(device)  # Due to ratio disparity
 
     if clip_size is None or clip_preprocess is None:
         return imgs_yolo, None
