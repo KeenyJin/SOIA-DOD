@@ -23,7 +23,7 @@ To train/test the model on the Ego4D dataset, follow the instructions provided h
 
 `https://github.com/EGO4D/forecasting/blob/main/SHORT_TERM_ANTICIPATION.md`
 
-Only the annotations and pre-extracted high-resolution image frames are required.
+Only the annotations and pre-extracted high-resolution image frames are required for this project.
 
 ## Training
 
