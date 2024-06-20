@@ -5,8 +5,11 @@ This is the github repository of the following technical report, prepared for Eg
 H. Cho, D. U. Kang, S. Y. Chun. Short-term Object Interaction Anticipation with Disentangled Object Detection.
 
 Team ICL@SNU
+
 Ranked 3rd in Noun+TTC & Overall
+
 Ranked 1st in Noun & Noun+Verb
+
 [Leaderboard](https://eval.ai/web/challenges/challenge-page/1623/leaderboard/3910)
 
 ## Installation
@@ -94,4 +97,4 @@ Ground truth and top-5 prediction results will be saved in `<output_directory>/v
 
 ## Acknowledgment
 
-We would like to thank [StillFast](https://github.com/fpv-iplab/stillfast), [GANOv2](https://github.com/sanketsans/ganov2), [YOLOv9](https://github.com/WongKinYiu/yolov9), [CLIP](https://github.com/openai/CLIP), and [DINO](https://github.com/IDEA-Research/DINO) for their contributions and inspiration. These works have been instrumental in the development of this project.
+We would like to thank [Ego4D](https://github.com/facebookresearch/Ego4d), [StillFast](https://github.com/fpv-iplab/stillfast), [GANOv2](https://github.com/sanketsans/ganov2), [YOLOv9](https://github.com/WongKinYiu/yolov9), [CLIP](https://github.com/openai/CLIP), and [DINO](https://github.com/IDEA-Research/DINO) for their contributions and inspiration. These works have been instrumental in the development of this project.
