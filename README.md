@@ -77,7 +77,7 @@ Multiple GPUs
 torchrun --nproc_per_node=<gpu_number> main.py --output_dir <output_directory> --test --resume <checkpoint_file>.pth --find_unused_params
 ```
 
-Predictions will be saved in `<output_directory>/results/test_epoch<epoch>.json`. To obtain the mAP results, submit the file to the [leaderboard](https://eval.ai/web/challenges/challenge-page/1623/overview).
+Predictions will be saved in `<output_directory>/results/test_epoch<epoch>.json`. To obtain the mAP results, submit the file to the [challenge](https://eval.ai/web/challenges/challenge-page/1623/overview).
 
 ## Visualization
 
@@ -95,7 +95,7 @@ torchrun --nproc_per_node=<gpu_number> main.py --output_dir <output_directory> -
 
 You can change the variable `eval_idxs` in function `visualize` in `main.py` to set the indices that you want to visualize.
 
-Ground truth and top-5 prediction results will be saved in `<output_directory>/visualizations`.
+Ground truth and top-5 prediction results will be saved in `<output_directory>/visualizations/`.
 
 ## Citation
 
