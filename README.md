@@ -10,9 +10,9 @@ Ranked 1st in Noun & Noun+Verb.
 ## Installation
 
 To install the necessary dependencies, run the following command:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## Ego4D Dataset
 
