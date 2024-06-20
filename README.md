@@ -27,7 +27,13 @@ Only the annotations and pre-extracted high-resolution image frames are required
 
 ## Training
 
-To train SOIA-DOD on the Ego4D dataset, execute the following command:
+### YOLOv9
+
+You should finetune the pretrained YOLOv9 object detector to predict the next active objects. You can download the finetuned weights [here](https://drive.google.com/file/d/1nlGRP-zKhLWj_HK_gNkoULXcdC3phRA2/view?usp=drive_link).
+
+### SOIA-DOD
+
+To train SOIA-DOD on the Ego4D dataset, first fill in the `img_path`, `anno_path`, and `yolo_checkpoint` in `configs/config.yaml`, and then execute the following command:
 
 Single GPU
 ```
