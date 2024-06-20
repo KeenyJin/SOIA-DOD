@@ -16,4 +16,18 @@ pip install -r requirements.txt
 
 ## Ego4D Dataset
 
+To train/test the model on the Ego4D dataset, follow the instructions provided here to download the dataset and its annotations for the Short-term Object Interaction Anticipation task:
+`https://github.com/EGO4D/forecasting/blob/main/SHORT_TERM_ANTICIPATION.md`
+
+## Training
+
+## Validation
+
+## Test
+
+## Visualization
+
+## Citation
+
+## Acknowledgment
 
