@@ -29,7 +29,7 @@ Only the annotations and pre-extracted high-resolution image frames are required
 
 ### YOLOv9
 
-You should finetune the pretrained YOLOv9 object detector to predict the next active objects. You can download the finetuned weights [here](https://drive.google.com/file/d/1nlGRP-zKhLWj_HK_gNkoULXcdC3phRA2/view?usp=drive_link).
+You should fine-tune the pre-trained YOLOv9 object detector to predict the next active objects. You can download the fine-tuned weights [here](https://drive.google.com/file/d/1nlGRP-zKhLWj_HK_gNkoULXcdC3phRA2/view?usp=drive_link).
 
 ### SOIA-DOD
 
