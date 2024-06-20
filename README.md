@@ -5,10 +5,8 @@ This is the github repository of the following technical report, prepared for Eg
 H. Cho, D. U. Kang, S. Y. Chun. Short-term Object Interaction Anticipation with Disentangled Object Detection.
 
 Team ICL@SNU
-
-Ranked 3rd in Noun+TTC & Overall
-
-Ranked 1st in Noun & Noun+Verb
+- Ranked 3rd in Noun+TTC & Overall
+- Ranked 1st in Noun & Noun+Verb
 
 [Leaderboard](https://eval.ai/web/challenges/challenge-page/1623/leaderboard/3910)
 
