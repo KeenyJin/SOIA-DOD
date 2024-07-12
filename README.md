@@ -98,6 +98,14 @@ You can change the variable `eval_idxs` in function `visualize` in `main.py` to 
 Ground truth and top-5 prediction results will be saved in `<output_directory>/visualizations/`.
 
 ## Citation
+```
+@article{cho2024short,
+  title={Short-term Object Interaction Anticipation with Disentangled Object Detection@ Ego4D Short Term Object Interaction Anticipation Challenge},
+  author={Cho, Hyunjin and Kang, Dong Un and Chun, Se Young},
+  journal={arXiv preprint arXiv:2407.05713},
+  year={2024}
+}
+```
 
 ## Acknowledgment
 
