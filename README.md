@@ -2,7 +2,7 @@
 
 This is the github repository of the following technical report, prepared for Ego4D Short-term Object Interaction Anticipation Challenge 2024:
 
-H. Cho, D. U. Kang, S. Y. Chun. Short-term Object Interaction Anticipation with Disentangled Object Detection.
+H. Cho, D. U. Kang, S. Y. Chun. [Short-term Object Interaction Anticipation with Disentangled Object Detection.](https://arxiv.org/abs/2407.05713)
 
 Team ICL@SNU
 - Ranked 3rd in Noun+TTC & Overall
