@@ -110,3 +110,7 @@ Ground truth and top-5 prediction results will be saved in `<output_directory>/v
 ## Acknowledgment
 
 We would like to thank [Ego4D](https://github.com/facebookresearch/Ego4d), [StillFast](https://github.com/fpv-iplab/stillfast), [GANOv2](https://github.com/sanketsans/ganov2), [YOLOv9](https://github.com/WongKinYiu/yolov9), [CLIP](https://github.com/openai/CLIP), and [DINO](https://github.com/IDEA-Research/DINO) for their contributions and inspiration. These works have been instrumental in the development of this project.
+
+## License
+
+This project integrates components from CLIP which is licensed under the MIT License, and YOLOv9 which is licensed under the GPL-3.0 license. Due to the requirements of the GPL-3.0 license, the entire distribution of this project is under GPL-3.0.
