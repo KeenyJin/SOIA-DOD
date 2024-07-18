@@ -113,4 +113,4 @@ We would like to thank [Ego4D](https://github.com/facebookresearch/Ego4d), [Stil
 
 ## License
 
-This project integrates components from CLIP which is licensed under the MIT License, and YOLOv9 which is licensed under the GPL-3.0 license. Due to the requirements of the GPL-3.0 license, the entire distribution of this project is under GPL-3.0.
+This project integrates components from [CLIP](https://github.com/openai/CLIP) which is licensed under the MIT License, and [YOLOv9](https://github.com/WongKinYiu/yolov9) which is licensed under the GPL-3.0 license. Due to the requirements of the GPL-3.0 license, the entire distribution of this project is under GPL-3.0.
