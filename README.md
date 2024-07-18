@@ -5,8 +5,8 @@ This is the github repository of the following technical report, prepared for Eg
 H. Cho, D. U. Kang, S. Y. Chun. [Short-term Object Interaction Anticipation with Disentangled Object Detection.](https://arxiv.org/abs/2407.05713)
 
 Team ICL@SNU
-- Ranked 3rd in Noun+TTC & Overall
-- Ranked 1st in Noun & Noun+Verb
+- Ranked 3rd🥉 in "Noun+TTC" & "Overall"
+- Ranked 1st🥇 in "Noun" & "Noun+Verb"
 
 [Leaderboard](https://eval.ai/web/challenges/challenge-page/1623/leaderboard/3910)
 
@@ -95,7 +95,7 @@ torchrun --nproc_per_node=<gpu_number> main.py --output_dir <output_directory> -
 
 You can change the variable `eval_idxs` in function `visualize` in `main.py` to set the indices that you want to visualize.
 
-Ground truth and top-5 prediction results will be saved in `<output_directory>/visualizations/`.
+Ground truth and top-5 prediction results will be saved in `<output_directory>/visualizations/results.json`.
 
 ## Citation
 ```
