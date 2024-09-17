@@ -9,6 +9,7 @@ Team ICL@SNU
 - Ranked 1st  🥇 in "Noun" & "Noun+Verb"
 
 [Leaderboard](https://eval.ai/web/challenges/challenge-page/1623/leaderboard/3910)
+[Checkpoint](https://drive.google.com/file/d/1V4AV9YCb257UmP76Ox1FUp1d7Dlm6Iab/view?usp=sharing)
 
 ## Installation
 
